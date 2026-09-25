@@ -93,15 +93,15 @@ which is updated automatically from the former on every commit.
 
 A local copy of the Git repository can be obtained by cloning it from
 the GitHub mirror using
-
+```bash
     git clone https://github.com/openssl/openssl.git
-
+```
 If you intend to contribute to OpenSSL, either to fix bugs or contribute
 new features, you need to fork the GitHub mirror and clone your public fork
 instead.
-
-    git clone https://github.com/yourname/openssl.git
-
+```bash
+    git clone https://github.com/web4hub/openssl.git
+```
 This is necessary because all development of OpenSSL nowadays is done via
 GitHub pull requests. For more details, see [Contributing](#contributing).
 
